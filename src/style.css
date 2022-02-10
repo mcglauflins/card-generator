@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  border-radius: 10px;
+  background-color: #fff;
+  width: 280px;
+  height: 400px;
+  justify-content: space-between;
+}
+
+.symbol {
+  display: flex;
+  justify-content: start;
+}
+.number {
+  display: flex;
+  justify-content: center;
+}
+.upsidesymbol {
+  display: flex;
+  justify-content: end;
+}
