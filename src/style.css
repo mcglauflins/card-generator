@@ -12,17 +12,32 @@ body {
   width: 280px;
   height: 400px;
   justify-content: space-between;
+  outline: black;
+  outline-width: 3px;
+  box-shadow: 5px 5px 1px 1px rgba(39, 39, 39, 0.548);
 }
 
 .symbol {
   display: flex;
   justify-content: start;
+  font-size: 80px;
+  padding-left: 10px;
 }
 .number {
   display: flex;
   justify-content: center;
+  font-size: 100px;
+  font-family: "Merriweather", serif;
 }
 .upsidesymbol {
   display: flex;
   justify-content: end;
+  font-size: 80px;
+  padding-right: 10px;
+  transform: rotateX(180deg);
+}
+.button {
+  position: relative;
+  top: 250px;
+  right: 215px;
 }

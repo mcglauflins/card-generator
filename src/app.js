@@ -32,4 +32,8 @@ window.onload = function() {
   number.innerHTML = `${cardNumber[targetNumber]}`;
   symbol.innerHTML = `${cardSymbol[targetSymbol]}`;
   upsidesymbol.innerHTML = `${cardSymbol[targetSymbol]}`;
+  if (targetSymbol == 3 || targetSymbol == 0) {
+    upsidesymbol.style.color = "red";
+    symbol.style.color = "red";
+  }
 };
